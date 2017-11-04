@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能缴费系统</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<!--头-->
+<div id="headerbox">
+    <h1 class="logo left"><a href="#"><img src="images2/logo.png"></a></h1>
+    <ul class="nav right">
+        <li><a href="#"><i class="ico ico01"></i>管理员</a></li>
+        <li><a href="#"><i class="ico ico02"></i>建议反馈</a></li>
+        <li><a href="#"><i class="ico ico03"></i>退出登录</a></li>
+    </ul>
+</div>
+<!--头-->
+<!--左侧 s-->
+<div id="sidlenav" class="scroll">
+
+    <dl class="list_dl">
+        <dt class="list_dt">
+            <h3><a href="#"><span class="icon icon01"></span>首页</a></h3>
+        </dt>
+        <dt class="list_dt">
+            <h3><a href="#"><span class="icon icon02"></span>配置首页</a></h3>
+        </dt>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon03"></span>费用管理<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+            </ul>
+        </dd>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon04"></span>用电控制<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li on"><a href="#">手动断送电 </a></li>
+                <li class="list_li"><a href="#">定时断送电</a></li>
+                <li class="list_li"><a href="#">手动抄表</a></li>
+                <li class="list_li"><a href="#">大功率设置</a></li>
+            </ul>
+        </dd>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon05"></span>房间管理<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+            </ul>
+        </dd>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon06"></span>硬件配置<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+            </ul>
+        </dd>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon07"></span>查询统计<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+            </ul>
+        </dd>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon08"></span>APP后台管理<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+            </ul>
+        </dd>
+        <dt class="list_dt">
+            <h3><a><span class="icon icon09"></span>系统设置<i></i></a></h3>
+        </dt>
+        <dd class="list_dd">
+            <ul>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+                <li class="list_li"><a href="#">二级菜单</a></li>
+            </ul>
+        </dd>
+    </dl>
+
+</div>
+<!--左侧导航 e-->
+<!--右侧-->
+<div class="right-c">
+    <ul class="nav-b clearfix">
+        <li><a href="">首页</a></li>
+        <li><a href="">用电控制</a></li>
+        <li class="active"><a href="">手动断送电</a></li>
+    </ul>
+    <div class="row">
+        <div class="col-xs-3"><!--bookstrp 分块-->
+            <div class="back-c">
+                <div class="back-tt">昨日用电量</div>
+                <div class="back-number">10.6</div>
+                <div class="back-i"><img src="images2/icon01.png"></div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div class="back-c back-c02">
+                <div class="back-tt">本月用电量</div>
+                <div class="back-number">10.6</div>
+                <div class="back-i"><img src="images2/icon02.png"></div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div class="back-c back-c03">
+                <div class="back-tt">今日售电金额</div>
+                <div class="back-number">456.4</div>
+                <div class="back-i"><img src="images2/icon03.png"></div>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <div class="back-c back-c04">
+                <div class="back-tt">本月售电金额</div>
+                <div class="back-number">7861.2</div>
+                <div class="back-i"><img src="images2/icon04.png"></div>
+            </div>
+        </div>
+        <div class="back-radius">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="icon-c clearfix">
+                        <div class="pull-left">
+                            <div class="icon-tt">当天缴费<span>456</span></div>
+                            <div class="icon-txt">当天缴费0次</div>
+                        </div>
+                        <a href="" class="icon-link">查看缴费信息</a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="icon-c icon-c02 clearfix">
+                        <div class="pull-left">
+                            <div class="icon-tt">缴费</div>
+                            <div class="icon-txt">快速缴费</div>
+                        </div>
+                        <a href="" class="icon-link">查看缴费信息</a>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="icon-c icon-c03 clearfix">
+                        <div class="pull-left">
+                            <div class="icon-tt">免费电量下发</div>
+                            <div class="icon-txt">免费电量下发</div>
+                        </div>
+                        <a href="" class="icon-link">查看缴费信息</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paycharts">
+            <div class="qx-tt text-center">最近30天缴费金额和次数（9月9日~10月9日）<span><img src="images/02.png">缴费金额</span><span><img
+                    src="images2/03.png"/>缴费次数</span></div>
+            <img class="chartpic" src="images2/01.png"/>
+        </div>
+        <div class="table-c">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th><span class="th-label"></span>房间</th>
+                    <th><span class="th-label th-label02"></span>时间</th>
+                    <th><span class="th-label th-label03"></span>缴费类型</th>
+                    <th><span class="th-label th-label04"></span>缴费状态</th>
+                    <th><span class="th-label th-label05"></span>充值方式</th>
+                    <th><span class="th-label th-label06"></span>充值金额</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>北京第二外国语学院/留学生公寓A楼一层101</td>
+                    <td>2017/9/28 15:38:05</td>
+                    <td>电表</td>
+                    <td>缴费失败</td>
+                    <td>PC端缴费</td>
+                    <td>8.00</td>
+                </tr>
+                <tr>
+                    <td>北京第二外国语学院/留学生公寓A楼一层101</td>
+                    <td>2017/9/28 15:38:05</td>
+                    <td>电表</td>
+                    <td>缴费失败</td>
+                    <td>PC端缴费</td>
+                    <td>8.00</td>
+                </tr>
+                <tr>
+                    <td>北京第二外国语学院/留学生公寓A楼一层101</td>
+                    <td>2017/9/28 15:38:05</td>
+                    <td>电表</td>
+                    <td>缴费失败</td>
+                    <td>PC端缴费</td>
+                    <td>8.00</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="table-more text-center"><a href="">查看更多缴费记录</a><span>从1至3，共3条</span></div>
+        </div>
+        <div class="footer text-center">Copyright©2017-2019 北京合众慧能科技股份有限公司.All rights reserved
+        </div>
+    </div>
+</div>
+</body>
+</html>
